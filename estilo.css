@@ -64,3 +64,14 @@ h1 {
     flex-direction: row;
     justify-content: space-evenly;  /* garante 'gap' equidistante */
 }
+
+.container-exerciciob {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.container-desafio {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+}
